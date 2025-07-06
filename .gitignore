@@ -1,0 +1,19 @@
+# Ignore model files and directories
+models/BioMistral-7B/
+models/BioMistral-7B/**
+
+# Optional: ignore all contents under models/
+# models/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Poetry/venv
+.venv/
+poetry.lock
+
+# MacOS-specific
+.DS_Store
+
