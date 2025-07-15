@@ -20,8 +20,12 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.poetry]
+packages = [{ include = "biotech", from = "src" }]
+
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.1.1"
 black = "^25.1.0"
 huggingface-hub = "^0.33.0"
+pytest = "^8.4.1"
 

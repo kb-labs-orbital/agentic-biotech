@@ -1,9 +1,5 @@
-# Ignore model files and directories
-models/BioMistral-7B/
-models/BioMistral-7B/**
-
-# Optional: ignore all contents under models/
-# models/
+# Ignore the entire models directory
+models/
 
 # Python artifacts
 __pycache__/
