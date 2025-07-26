@@ -1,8 +1,8 @@
 import pytest
 from pathlib import Path
-from biotech.llm.loader import loader
+#from biotech.llm.loader import loader
 from llama_cpp import Llama
-
+from biotech.llm.loader import load_model
 
 def test_model_path_exists():
     """Ensure default model path resolves correctly."""
